@@ -33,8 +33,7 @@ nav>div:hover .submenu{
 .submenu{
     display: none;
     position: absolute;
-    background: rgb(204, 198, 170);
-   
+    background: #f2f6c6;
 }
 /*fin navigation*/
 

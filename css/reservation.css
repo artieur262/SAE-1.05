@@ -38,3 +38,53 @@ nav>div:hover .submenu{
 }
 /*fin navigation*/
 
+/*debut tableau */
+table{
+    text-align: center;
+    border: #000 1px solid;
+}
+tbody tr:nth-child(2n){
+    background-color: #CCC;
+    
+}
+tbody tr:nth-child(2n+1){
+    background-color: #FFF;
+}
+
+table.reservation thead th{
+    background-color: #00AAFF;
+    width: 100px;
+}
+
+
+.reserver{
+    background-color: #ff2d2d;
+}
+
+.table_tarif thead th{
+    width: 200px;
+    height: 30px;
+    background-color :#e8c811;
+    
+}
+
+/*fin tableau */
+/*debut légende*/
+.legend{
+    margin: 0 0;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 800px;
+    margin-bottom: 10px;
+}
+.legend p{
+    display: inline-block;
+    margin: 0 50px;}
+
+/*fin légende*/
+.rouge{
+    color: #ff2d2d;
+}
+
