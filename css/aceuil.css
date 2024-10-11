@@ -1,15 +1,16 @@
 
 nav{
+    display: inline;
     position: sticky;
-    width: 75%;
-    margin: 0px auto;
+    width: 100%;
     height: 200px;
-    flex-direction: row;
-
 }
+
 nav>div{
+    display: inline-block;
     background-color: #5BBDBF;
-    width: 100px;
+    width: 200px;
+    position: relative;
 
 
 }
@@ -17,15 +18,20 @@ nav>div{
 nav a{
     padding: 0px 10px;
     border-left: 2px solid #000;
+    text-decoration: none;
+    text-align: center;
 }
 
 nav>div:first-child>a{
     border: none;
 }
 
-nav>div .submenu{
-    display: none;
-}
 nav>div:hover .submenu{
     display:block;
+}
+.submenu{
+    display: none;
+    position: absolute;
+    background: #aca;
+   
 }
