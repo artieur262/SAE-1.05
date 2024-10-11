@@ -1,4 +1,4 @@
-
+/*debut navigation*/
 nav{
     display: inline;
     position: sticky;
@@ -36,3 +36,5 @@ nav>div:hover .submenu{
     background: rgb(204, 198, 170);
    
 }
+/*fin navigation*/
+
