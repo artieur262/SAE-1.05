@@ -1,0 +1,31 @@
+
+nav{
+    position: sticky;
+    width: 75%;
+    margin: 0px auto;
+    height: 200px;
+    flex-direction: row;
+
+}
+nav>div{
+    background-color: #5BBDBF;
+    width: 100px;
+
+
+}
+
+nav a{
+    padding: 0px 10px;
+    border-left: 2px solid #000;
+}
+
+nav>div:first-child>a{
+    border: none;
+}
+
+nav>div .submenu{
+    display: none;
+}
+nav>div:hover .submenu{
+    display:block;
+}
