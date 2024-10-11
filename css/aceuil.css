@@ -8,7 +8,7 @@ nav{
 
 nav>div{
     display: inline-block;
-    background-color: #5BBDBF;
+    background-color: #e5c80bde;
     width: 200px;
     position: relative;
 
@@ -16,6 +16,7 @@ nav>div{
 }
 
 nav a{
+    color: #000;;
     padding: 0px 10px;
     border-left: 2px solid #000;
     text-decoration: none;
@@ -32,6 +33,6 @@ nav>div:hover .submenu{
 .submenu{
     display: none;
     position: absolute;
-    background: #aca;
+    background: rgb(204, 198, 170);
    
 }
