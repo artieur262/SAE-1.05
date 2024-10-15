@@ -1,3 +1,8 @@
+body{
+    background-color: #838892;
+    width: 800px;
+    margin : auto
+}
 /*debut navigation*/
 nav{
     display: inline;
@@ -9,7 +14,7 @@ nav{
 nav>div{
     display: inline-block;
     background-color: #e5c80bde;
-    width: 200px;
+    width: 24%;
     position: relative;
 
 
@@ -38,3 +43,25 @@ nav>div:hover .submenu{
 }
 /*fin navigation*/
 
+/*debut footer*/
+footer{
+    background-color: #757575;
+    width: 100%;
+    height: 130px;
+    clear: both;
+}
+.logo_site{
+    margin: 9px;
+    float: left;
+    clear: left;
+}
+
+.icon{
+    float: right;
+    margin: 10px 10px;
+}
+
+footer p{
+    text-align: right;
+    margin: 3px 10px;
+}
